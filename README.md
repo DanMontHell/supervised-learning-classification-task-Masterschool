@@ -75,6 +75,41 @@ The primary objective of this project is to compare the performance of different
     Open the `Daniel_Hellmuth_DA108_3_Supervised_ML_Vehicle_project.ipynb` file and run the cells to see the analysis and model results.
 
 ---
+
+## 📈 Results and Insights
+
+The performance of the different models was evaluated based on accuracy, precision, recall, and F1-score. Below is a summary of the results:
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+| :--- | :--- | :--- | :--- | :--- |
+| Logistic Regression | *0.95* | *0.96* | *0.96* | *0.96* |
+| Decision Tree | *0.90* | *0.90* | *0.90* | *0.90* |
+| Random Forest | *0.93* | *0.94* | *0.94* | *0.94* |
+
+### Key Insights:
+
+*Logistic Regression achieved the highest accuracy (0.95) after scaling, outperforming Decision Tree (0.90) and Random Forest (0.94).
+*Cross-validation results for Logistic Regression (0.93 mean accuracy after stratification) were stable, confirming model generalizability.
+*No signs of overfitting were detected, with training accuracy (0.94) aligning closely to test accuracy (0.96).
+
+---
+
+## 🏁 Conclusion
+
+This project successfully demonstrates the application of various supervised machine learning algorithms for classifying vehicle shapes. The **Logistic Regression** model achieved the highest accuracy, making it the most suitable for this task. The results indicate that machine learning can be effectively used for automated vehicle classification based on shape features.
+
+---
+
+## 🔮 Next Steps
+
+Further improvements and analysis can be conducted in the future:
+
+* **Feature Engineering**: Explore creating new features from the existing ones to potentially improve model performance.
+* **Try Other Models**: Experiment with other advanced classification algorithms like **Gradient Boosting**, **XGBoost**, or **LightGBM**.
+* **Deep Learning**: For a more complex approach, a **Convolutional Neural Network (CNN)** could be used to classify the vehicle images directly, rather than relying on extracted features.
+* **Deployment**: Deploy the best-performing model as a web application or an API to allow for real-time predictions.
+
+---
 ## 📂 Project Structure
 ```
 .
